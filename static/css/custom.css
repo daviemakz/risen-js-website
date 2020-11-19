@@ -38,3 +38,31 @@
 .fbOpenSource {
   padding-bottom: 1em;
 }
+
+.projectLogo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: 72px;
+  margin-bottom: 0px
+}
+
+.projectLogo > img {
+  margin: 0 auto;
+  display: block;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo {
+  padding-left: 8px;
+}
+
+.middleImage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 80px;
+}
+
+a {
+  color: #5dacbd
+}

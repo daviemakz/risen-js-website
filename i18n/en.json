@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Risen is a fast, modern and powerful microservices framework for Node.JS",
+    "tagline": "Risen is an easy, fast, and modern microservice framework for Node.JS",
     "docs": {
       "apicodes": {
         "title": "Codes",

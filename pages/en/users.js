@@ -5,11 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require("react");
+const React = require('react');
 
-const CompLibrary = require("../../core/CompLibrary.js");
+const CompLibrary = require('../../core/CompLibrary.js');
 
-const Container = CompLibrary.Container;
+const { Container } = CompLibrary;
 
 class Users extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Users extends React.Component {
       return null;
     }
 
-    const showcase = siteConfig.users.map(user => (
+    const showcase = siteConfig.users.map((user) => (
       <a href={user.infoLink} key={user.infoLink}>
         <img src={user.image} alt={user.caption} title={user.caption} />
       </a>
@@ -26,7 +26,7 @@ class Users extends React.Component {
 
     return (
       <div className="mainContainer">
-        <Container padding={["bottom", "top"]}>
+        <Container padding={['bottom', 'top']}>
           <div className="showcaseSection">
             <div className="prose">
               <h1>Who is Using This?</h1>
@@ -34,7 +34,7 @@ class Users extends React.Component {
             </div>
             <div className="logos">{showcase}</div>
             {siteConfig.repoUrl && (
-              <React.Fragment>
+              <div>
                 <p>Are you using this project?</p>
                 <a
                   href={`${siteConfig.repoUrl}/edit/master/website/siteConfig.js`}
@@ -42,7 +42,7 @@ class Users extends React.Component {
                 >
                   Add your company
                 </a>
-              </React.Fragment>
+              </div>
             )}
           </div>
         </Container>

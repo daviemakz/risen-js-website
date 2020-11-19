@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require("react");
+const React = require('react');
 
 class Footer extends React.Component {
   docUrl(doc) {
-    const baseUrl = this.props.config.baseUrl;
-    const docsUrl = this.props.config.docsUrl;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+    const { baseUrl } = this.props.config;
+    const { docsUrl } = this.props.config;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     return `${baseUrl}${docsPart}${doc}`;
   }
 
@@ -21,11 +21,11 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
             <h5>Topics</h5>
-            <a href={this.docUrl("quickstart")}>Quickstart</a>
-            <a href={this.docUrl("overview")}>Overview</a>
-            <a href={this.docUrl("philosophy")}>Philosophy</a>
-            <a href={this.docUrl("security")}>Security</a>
-            <a href={this.docUrl("terminology")}>Terminology</a>
+            <a href={this.docUrl('quickstart')}>Quickstart</a>
+            <a href={this.docUrl('overview')}>Overview</a>
+            <a href={this.docUrl('philosophy')}>Philosophy</a>
+            <a href={this.docUrl('security')}>Security</a>
+            <a href={this.docUrl('terminology')}>Terminology</a>
           </div>
           <div>
             <h5>Community</h5>
@@ -43,10 +43,7 @@ class Footer extends React.Component {
             >
               Issues
             </a>
-            <a
-              target="_blank"
-              href={`https://github.com/daviemakz/risen-js/pulls`}
-            >
+            <a target="_blank" href="https://github.com/daviemakz/risen-js/pulls">
               Pull Requests
             </a>
 
