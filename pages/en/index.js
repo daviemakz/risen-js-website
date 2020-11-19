@@ -101,10 +101,11 @@ class Index extends React.Component {
         <div className="middleImage">
           <img src={`${baseUrl}img/undraw_open_source.svg`} />
         </div>
-        <h2>Build For The Future</h2>
+        <h2>Built For The Future</h2>
         <MarkdownBlock>
-          Out of the box support for the latest ECMA features means you can
-          build using the latest code standards and improve maintainability.
+          Out of the box support for the latest ECMA+ features and full access
+          to all NPM packages allows you to build modern server-side
+          applications.
         </MarkdownBlock>
       </div>
     );
@@ -114,14 +115,14 @@ class Index extends React.Component {
         {[
           {
             content:
-              "Designed to take the technical complexity out of building high performance, scalable server-side applications leaving you focus on your business logic.",
+              "Designed to simplify data storage, service management, distributed logic, logging (etc.) leaving you to focus on your business requirements.",
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: "top",
             title: "Fast, Simple and Unopinionated"
           },
           {
             content:
-              "Under the hood this framework makes use of the well-known Express package, Quick-DB for long term storage and to provide everything you need all at once.",
+              "Under the hood, this framework makes use of the well-known Express package, Quick-DB for long-term storage and to provide everything you need all at once.",
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: "top",
             title: "Everything In One Place"
