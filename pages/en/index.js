@@ -104,8 +104,8 @@ class Index extends React.Component {
         <h2>Built For The Future</h2>
         <MarkdownBlock>
           Out of the box support for the latest ECMA+ features and full access
-          to all NPM packages allows you to build modern server-side
-          applications.
+          to all [NPM](https://www.npmjs.com/) packages allows you to build
+          flexible, high performance, scalable and products.
         </MarkdownBlock>
       </div>
     );
@@ -115,14 +115,14 @@ class Index extends React.Component {
         {[
           {
             content:
-              "Designed to simplify data storage, service management, distributed logic, logging (etc.) leaving you to focus on your business requirements.",
+              "Designed to simplify data storage, services management, distributed business logic, logging (etc.) leaving you to focus on your requirements.",
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: "top",
             title: "Fast, Simple and Unopinionated"
           },
           {
             content:
-              "Under the hood, this framework makes use of the well-known Express package, Quick-DB for long-term storage and to provide everything you need all at once.",
+              "Under the hood, this framework uses the Express package and Quick-DB for long-term persistent storage providing everything you need to quickly deploy server-side applications.",
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: "top",
             title: "Everything In One Place"
