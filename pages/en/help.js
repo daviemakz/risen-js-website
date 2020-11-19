@@ -56,8 +56,8 @@ function Help(props) {
           </header>
           <p>
             Have you bumped into an issue? Cant get the framework to start? You
-            think you've bumped into a bug. Check out the sections below for
-            more help.
+            think you&apos;ve bumped into a bug. Check out the sections below
+            for more help.
           </p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
